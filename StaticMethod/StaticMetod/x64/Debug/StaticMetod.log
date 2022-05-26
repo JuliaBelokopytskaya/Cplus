@@ -1,0 +1,4 @@
+﻿  StaticMetod.cpp
+C:\Users\user\source\repos\StaticMetod\StaticMetod\StaticMetod.cpp(15,9): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\user\source\repos\StaticMetod\StaticMetod\StaticMetod.cpp(16,9): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  StaticMetod.vcxproj -> C:\Users\user\source\repos\StaticMetod\x64\Debug\StaticMetod.exe
