@@ -1,0 +1,3 @@
+﻿  Inheritance.cpp
+C:\Users\user\source\repos\Inheritance\Inheritance\Inheritance.cpp(18,36): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\xmemory(608): fatal error C1060: компилятору не хватает размера кучи
