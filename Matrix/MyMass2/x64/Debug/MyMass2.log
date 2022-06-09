@@ -1,0 +1,4 @@
+﻿  MyMass2.cpp
+C:\Users\user\source\repos\Matrix\MyMass2\MyMass2.cpp(48,20): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\user\source\repos\Matrix\MyMass2\MyMass2.cpp(49,20): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\user\source\repos\Matrix\MyMass2\MyMass2.cpp(67,32): warning C4244: =: преобразование "int" в "float", возможна потеря данных

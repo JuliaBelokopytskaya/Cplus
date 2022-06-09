@@ -1,0 +1,4 @@
+﻿  Check.cpp
+C:\Users\user\source\repos\Matrix\Check\Check.cpp(48,20): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\user\source\repos\Matrix\Check\Check.cpp(49,20): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\user\source\repos\Matrix\Check\Check.cpp(67,32): warning C4244: =: преобразование "int" в "float", возможна потеря данных
