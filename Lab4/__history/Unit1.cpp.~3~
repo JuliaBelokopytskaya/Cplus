@@ -1,0 +1,88 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "Unit1.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TForm1 *Form1;
+//---------------------------------------------------------------------------
+__fastcall TForm1::TForm1(TComponent* Owner)
+	: TForm(Owner)
+{
+}
+
+//---------------------------------------------------------------------------
+ //---------------------------------------------------------------------------
+float **A, *b;
+int N=4;
+int M=3;
+void __fastcall TForm1::FormCreate(TObject *Sender)
+{
+		Edit1->Text=IntToStr(N);
+		Edit2->Text=IntToStr(M);
+		StringGrid1->RowCount = N+1;
+		StringGrid1->ColCount = M+1;
+		StringGrid2->ColCount = N+1;
+		StringGrid1->Cells[0][0] = "Матрица A";
+		StringGrid2->Cells[0][0] = "Массив B";
+		for(int i=1; i<=N;i++)
+			StringGrid1->Cells[0][i]="i="+IntToStr(i);
+		for(int i=1; i<=M;i++)
+			StringGrid1->Cells[i][0]="j="+IntToStr(i);
+
+
+}
+
+void __fastcall TForm1::Edit1Change(TObject *Sender)
+{
+  int i;
+		N=StrToInt(Edit1->Text);
+		StringGrid1->RowCount = N+1;
+
+		for(i=1; i<=N;i++){
+			StringGrid1->Cells[0][i]="i="+IntToStr(i);
+		}
+
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Edit2Change(TObject *Sender)
+{
+	 int i;
+		M=StrToInt(Edit1->Text);
+		StringGrid1->ColCount = M+1;
+		StringGrid2->ColCount = N+1;
+		for(i=1; i<=M;i++){
+			StringGrid1->Cells[i][0]="j="+IntToStr(i);
+		}
+
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Button1Click(TObject *Sender)
+{
+	float s=0;
+	int i,j;
+	A = new float*[N];
+	for(i=0; i<N;i++)
+		A[i] = new float[M];
+	b = new float[M];
+	for(i=0; i<N;i++) {
+		for(j=0; j<M;j++)
+			A[i][j]=StrToFloat(StringGrid1->Cells[j+1][i+1]);
+
+	}
+	for(i=0; i<N;i++) {
+		for(j=0; j<M;j++){
+			s+=A[i][j];
+		}
+		b[i]=s/M;
+		s=0;
+		StringGrid2->Cells[0][i+1] = FloatToStrF(b[i], ffFixed,8,2);
+	}
+   }
+//---------------------------------------------------------------------------
+

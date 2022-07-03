@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.563,C:\Users\user\Documents\Embarcadero\Studio\Projects\TreePCH1.h=C:\Users\user\Documents\Embarcadero\Studio\Projects\Lab7\TreePCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.996,=C:\Users\user\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.634,C:\Users\user\Documents\Embarcadero\Studio\Projects\Unit1.cpp=C:\Users\user\Documents\Embarcadero\Studio\Projects\Lab7\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.644,C:\Users\user\Documents\Embarcadero\Studio\Projects\Tree.cbproj=C:\Users\user\Documents\Embarcadero\Studio\Projects\Lab7\Tree.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.634,C:\Users\user\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\user\Documents\Embarcadero\Studio\Projects\Lab7\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.877,=C:\Users\user\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.108,C:\Users\user\Documents\Embarcadero\Studio\Projects\Project1PCH1.h=C:\Users\user\Documents\Embarcadero\Studio\Projects\TreePCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.634,C:\Users\user\Documents\Embarcadero\Studio\Projects\Unit1.h=C:\Users\user\Documents\Embarcadero\Studio\Projects\Lab7\Unit1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.120,C:\Users\user\Documents\Embarcadero\Studio\Projects\Project1.cbproj=C:\Users\user\Documents\Embarcadero\Studio\Projects\Tree.cbproj</Transaction>
+  </Transactions>
+</BorlandProject>

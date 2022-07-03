@@ -1,0 +1,133 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "Unit1.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TForm1 *Form1;
+//---------------------------------------------------------------------------
+__fastcall TForm1::TForm1(TComponent* Owner)
+    : TForm(Owner)
+{
+  randomize();
+}
+//---------------------------------------------------------------------------
+struct Stack {
+int info;
+Stack * next;
+} *begin, *t;
+//----------------------------------------------------------------------------
+Stack* InStack(Stack*, int);
+void View(Stack*);
+void Del_All(Stack **);
+Stack*  Del_Odd(Stack*);
+//----------------------------------------------------------------------------
+void __fastcall TForm1::Button1Click(TObject *Sender)
+{
+ int i, in, n = StrToInt(Edit1->Text);
+if(begin != NULL){
+ShowMessage("Освободите память!");
+return;
+}
+for(i = 1; i <= n; i++){
+in = random(20) + 1;
+begin = InStack(begin, in);
+}
+Tag += n;
+Memo1->Lines->Add("Создали " + IntToStr(n) + " элементов.");
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::Button2Click(TObject *Sender)
+{
+int i, in, n = StrToInt(Edit1->Text);
+for(i = 1; i <= n; i++){
+in = random(20) + 1;
+begin = InStack(begin, in);
+}
+Tag += n;
+Memo1->Lines->Add("Добавили " + IntToStr(n) + " элементов.");
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::Button3Click(TObject *Sender)
+{
+if(!begin){
+ShowMessage("Стек Пуст!");
+Memo1->Lines->Add("Стек Пуст!");
+return;
+}
+Memo1->Lines->Add("--- Элементы (всего: " + String(Tag) + ") ---");
+View(begin);
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::Button4Click(TObject *Sender)
+{
+if (begin != NULL) Del_All(&begin);
+ShowMessage("Память освобождена!");
+Memo1->Lines->Add("Память освобождена!");
+Tag = 0;
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::Button5Click(TObject *Sender)
+{
+if(begin != NULL) Del_All(&begin);
+Close();
+}
+//---------------------------------------------------------------------------
+Stack* InStack(Stack *p, int in) {
+Stack *t = new Stack;
+t -> info = in;
+t -> next = p;
+return t;
+}
+//------------------------------------------------------------------
+void View(Stack *p) {
+Stack *t = p;
+while( t != NULL) {
+Form1->Memo1->Lines->Add(" " + IntToStr( t->info));
+// В консольном приложении будет, например, cout << " " << t->info << endl;
+t = t -> next;
+}
+}
+//-----------------------------------------------------------
+void Del_All(Stack **p) {
+while(*p != NULL) {
+t = *p;
+*p = (*p) -> next;
+Form1->Tag = 0;
+delete t;
+}
+}
+//-----------------------------------------------------------
+Stack* Del_Odd(Stack *p)
+{
+  Stack *t = new Stack;
+//  int n = 0;
+//  int k = Form1->Tag;
+  Form1->Tag = 0;
+  while(p != NULL)
+  {
+
+    if (p->info % 2 == 0 && p->info > 0)
+    {
+      Form1->Tag++;
+      t = InStack(t, p -> info);
+//    ShowMessage(t->info);
+    }
+
+//  n++;
+    p = p -> next;
+
+  }
+  begin = t;
+  return t;
+}
+//-----------------------------------------------------------
+void __fastcall TForm1::Button6Click(TObject *Sender)
+{
+  begin = Del_Odd(begin);
+  Memo1->Lines->Add("--- Элементы (всего: " + String(Tag) + ") ---");
+  View(begin);
+}

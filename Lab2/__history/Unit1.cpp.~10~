@@ -1,0 +1,93 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+#include <iostream>
+#include "Unit1.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TForm1 *Form1;
+//---------------------------------------------------------------------------
+__fastcall TForm1::TForm1(TComponent* Owner)
+	: TForm(Owner)
+{
+}
+
+//---------------------------------------------------------------------------
+ //---------------------------------------------------------------------------
+int *A, *b;
+int N=1000;
+void __fastcall TForm1::FormCreate(TObject *Sender)
+{
+	randomize();
+	StringGrid1->ColCount=N;
+	for(int i=0; i<N;i++)
+		StringGrid1->Cells[i][0] = IntToStr(random(21)-10);
+}
+//---------------------------------------------------------------------------
+ void Poisk_Del_2(int *a, int x)
+{
+	int i = 0, j = N-1, m;
+	while(i < j) {
+	m = (i+j)/2;
+	if (x > a[m]) i = m+1;
+	else j = m;
+}
+if (a[i] == x)
+    Label4->Caption = IntToStr(max(A));
+	Form1->Memo1->Lines->Add(IntToStr(a[i]));
+
+}
+//---------------------------------------------------------------------------
+void Poisk_Lin(int *a, int x)
+{
+ 	int i, kod = 0;
+	for(i = 0; i < N; i++)
+		if ( a[i] == x )
+		{   kod = 1;
+			Form1->Memo1->Lines->Add(IntToStr(a[i]));
+ 	 	}
+	if(kod == 0){
+
+	}
+}
+
+//---------------------------------------------------------------------------
+
+void sort(int *digitals){
+ for (int i = 0; i < N-1; i++) {
+	for (int j = 0; j < N-i-1; j++) {
+	  if (digitals[j] < digitals[j + 1]) {
+		int b = digitals[j];
+		digitals[j] = digitals[j + 1];
+		digitals[j + 1] = b;
+	  }
+    }
+  }
+}
+void __fastcall TForm1::Button1Click(TObject *Sender)
+{
+	float s=0;
+	int i,j;
+	A = new int[N];
+	//b = new float[N];
+	int kod = RadioGroup1->ItemIndex;
+	for(i=0; i<N;i++)
+		A[i]=StrToInt(StringGrid1->Cells[i][0]);
+	sort(A);
+	for (i=0;i<N;i++)
+		StringGrid1->Cells[i][0] = IntToStr(A[i]);
+	int x= StrToInt(Edit1->Text);
+	if(kod==0){
+		Poisk_Del_2(A, x);
+	}
+	else{
+		 Poisk_Lin(A, x);
+	}
+	delete [] A;
+   }
+
+//---------------------------------------------------------------------------
+
+

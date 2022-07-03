@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.862,C:\Users\user\Documents\Embarcadero\Studio\Projects\Lab6\Unit1.dfm=C:\Users\user\Documents\Embarcadero\Studio\Projects\Lab5\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.496,C:\Users\user\Documents\Embarcadero\Studio\Projects\Lab6\Queue.cbproj=C:\Users\user\Documents\Embarcadero\Studio\Projects\Lab6\Stack.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.862,C:\Users\user\Documents\Embarcadero\Studio\Projects\Lab6\Unit1.h=C:\Users\user\Documents\Embarcadero\Studio\Projects\Lab5\Unit1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.773,C:\Users\user\Documents\Embarcadero\Studio\Projects\Lab5\Unit1.dfm=C:\Users\user\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.042,=C:\Users\user\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.773,C:\Users\user\Documents\Embarcadero\Studio\Projects\Lab5\Unit1.cpp=C:\Users\user\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.115,C:\Users\user\Documents\Embarcadero\Studio\Projects\StackPCH1.h=C:\Users\user\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.120,C:\Users\user\Documents\Embarcadero\Studio\Projects\Stack.cbproj=C:\Users\user\Documents\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.689,C:\Users\user\Documents\Embarcadero\Studio\Projects\Lab5\StackPCH1.h=C:\Users\user\Documents\Embarcadero\Studio\Projects\StackPCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.927,C:\Users\user\Documents\Embarcadero\Studio\Projects\Lab6\Stack.cbproj=C:\Users\user\Documents\Embarcadero\Studio\Projects\Lab5\Stack.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.932,=C:\Users\user\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.773,C:\Users\user\Documents\Embarcadero\Studio\Projects\Lab5\Unit1.h=C:\Users\user\Documents\Embarcadero\Studio\Projects\Unit1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.466,C:\Users\user\Documents\Embarcadero\Studio\Projects\Lab6\QueuePCH1.h=C:\Users\user\Documents\Embarcadero\Studio\Projects\Lab5\StackPCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.862,C:\Users\user\Documents\Embarcadero\Studio\Projects\Lab6\Unit1.cpp=C:\Users\user\Documents\Embarcadero\Studio\Projects\Lab5\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.952,C:\Users\user\Documents\Embarcadero\Studio\Projects\Lab5\Stack.cbproj=C:\Users\user\Documents\Embarcadero\Studio\Projects\Stack.cbproj</Transaction>
+  </Transactions>
+</BorlandProject>

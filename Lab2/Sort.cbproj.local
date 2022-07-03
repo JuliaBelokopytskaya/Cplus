@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.390,C:\Users\user\Documents\Embarcadero\Studio\Projects\Lab1\Recursion.cbproj=C:\Users\user\Documents\Embarcadero\Studio\Projects\Lab1\Project1.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.986,C:\Users\user\Documents\Embarcadero\Studio\Projects\Lab2\Unit1.dfm=C:\Users\user\Documents\Embarcadero\Studio\Projects\Lab4\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.988,C:\Users\user\Documents\Embarcadero\Studio\Projects\Lab2\Matrix.cbproj=C:\Users\user\Documents\Embarcadero\Studio\Projects\Lab4\Matrix.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.986,C:\Users\user\Documents\Embarcadero\Studio\Projects\Lab2\Unit1.cpp=C:\Users\user\Documents\Embarcadero\Studio\Projects\Lab4\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.886,C:\Users\user\Documents\Embarcadero\Studio\Projects\Unit1.h=D:\Lab1\Unit1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.482,C:\Users\user\Documents\Embarcadero\Studio\Projects\Lab1\Recursion.cbproj=C:\Users\user\Documents\Embarcadero\Studio\Projects\Lab1\Maximum.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.645,=C:\Users\user\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.886,C:\Users\user\Documents\Embarcadero\Studio\Projects\Unit1.cpp=D:\Lab1\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.581,C:\Users\user\Documents\Embarcadero\Studio\Projects\Lab4\Maximum.cbproj=C:\Users\user\Documents\Embarcadero\Studio\Projects\Lab1\Maximum.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.212,C:\Users\user\Documents\Embarcadero\Studio\Projects\Lab4\Matrix.cbproj=C:\Users\user\Documents\Embarcadero\Studio\Projects\Lab4\Maximum.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.986,C:\Users\user\Documents\Embarcadero\Studio\Projects\Lab2\Unit1.h=C:\Users\user\Documents\Embarcadero\Studio\Projects\Lab4\Unit1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.246,C:\Users\user\Documents\Embarcadero\Studio\Projects\Project1.cbproj=D:\Lab1\Project1.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.344,C:\Users\user\Documents\Embarcadero\Studio\Projects\Lab4\Unit1.dfm=C:\Users\user\Documents\Embarcadero\Studio\Projects\Lab1\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.347,C:\Users\user\Documents\Embarcadero\Studio\Projects\Lab1\RecursionPCH1.h=C:\Users\user\Documents\Embarcadero\Studio\Projects\Lab1\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.913,=D:\003\SoprForm.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.336,D:\003\SoprForm.dfm=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.344,C:\Users\user\Documents\Embarcadero\Studio\Projects\Lab4\Unit1.cpp=C:\Users\user\Documents\Embarcadero\Studio\Projects\Lab1\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.204,C:\Users\user\Documents\Embarcadero\Studio\Projects\Lab4\MatrixPCH1.h=C:\Users\user\Documents\Embarcadero\Studio\Projects\Lab1\MaximumPCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.482,C:\Users\user\Documents\Embarcadero\Studio\Projects\Lab1\RecursionPCH1.h=C:\Users\user\Documents\Embarcadero\Studio\Projects\Lab1\MaximumPCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.869,C:\Users\user\Documents\Embarcadero\Studio\Projects\Lab2\Sort.cbproj=C:\Users\user\Documents\Embarcadero\Studio\Projects\Lab2\Matrix.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.868,C:\Users\user\Documents\Embarcadero\Studio\Projects\Lab2\SortPCH1.h=C:\Users\user\Documents\Embarcadero\Studio\Projects\Lab4\MatrixPCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.344,C:\Users\user\Documents\Embarcadero\Studio\Projects\Lab4\Unit1.h=C:\Users\user\Documents\Embarcadero\Studio\Projects\Lab1\Unit1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.123,C:\Users\user\Documents\Embarcadero\Studio\Projects\Project1PCH1.h=D:\Lab1\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.530,=C:\Users\user\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.886,C:\Users\user\Documents\Embarcadero\Studio\Projects\Unit1.dfm=D:\Lab1\Unit1.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

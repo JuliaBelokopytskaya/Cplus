@@ -1,0 +1,62 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "Unit1.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TForm1 *Form1;
+//---------------------------------------------------------------------------
+__fastcall TForm1::TForm1(TComponent* Owner)
+	: TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::RadioButton1Click(TObject *Sender)
+{
+	Label2->Caption = "";
+}
+
+
+void __fastcall TForm1::RadioButton2Click(TObject *Sender)
+{
+	Label3->Caption = "";
+}
+
+ //---------------------------------------------------------------------------
+
+
+void __fastcall TForm1::Button1Click(TObject *Sender)
+{
+    float n;
+
+	n = StrToFloat(Edit1->Text);
+
+	if ( RadioButton1->Checked )
+	{
+		Label2->Caption = FloatToStrF(n,ffGeneral,6,2) + " рекурсия";
+	}
+	if ( RadioButton2->Checked )
+	{
+//		// выбран переключатель "параллельно"
+//
+//		// при вычислении сопротивления возможно
+//		// исключение EInvalidOp
+//		try
+//		{
+//			r = (r1 * r2) / (r1 + r2);
+//		}
+//		catch ( EInvalidOp &e)
+//		{
+//			ShowMessage("Необходимо задать величину сопротивлений");
+//			return;
+//		}
+	   Label3->Caption = FloatToStrF(n,ffGeneral,6,2) + " без рекурсии";
+	}
+//	Label4->Caption = FloatToStrF(r,ffGeneral,6,2) + " Ом";
+}
+//---------------------------------------------------------------------------
+
